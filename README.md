@@ -3,6 +3,8 @@
 A simple web app that measures how many words you can type in **30 seconds**, and also calculates your **accuracy**.
 #screenshot
 [Typing Speed Tester Screenshot](https://drive.google.com/file/d/10hS7DucPUT3C9OhZXjo5rZ_pgWD7kLsZ/view?usp=sharing)
+#Demo video
+[View here](https://drive.google.com/file/d/1zi3vqcFDB3NyeVCO8dETI1u-2CpDM9TX/view?usp=sharing)
 
 ## Features
 Random sample text each time
