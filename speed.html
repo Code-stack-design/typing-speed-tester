@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Typing Speed Tester — 30s</title>
+  <link rel="stylesheet" href="test.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Typing Speed Tester</h1>
+    <p class="instructions">Type the text shown below as fast and accurately as you can. Test length: <strong>30 seconds</strong>.</p>
+
+    <section class="sample">
+      <div id="sampleText"></div>
+      <button id="newTextBtn" class="small">New text</button>
+    </section>
+
+    <textarea id="inputArea" placeholder="Click 'Start' and begin typing..." disabled></textarea>
+
+    <div class="controls">
+      <button id="startBtn">Start</button>
+      <button id="resetBtn" class="small">Reset</button>
+      <div class="stats">
+        <div>Time: <span id="time">30</span>s</div>
+        <div>WPM: <span id="wpm">0</span></div>
+        <div>Accuracy: <span id="acc">100%</span></div>
+      </div>
+    </div>
+
+    <footer class="credit">Built for a small project — submit code + screenshot to GitHub.</footer>
+  </main>
+
+  <script src="testspeed.js"></script>
+</body>
+</html>
